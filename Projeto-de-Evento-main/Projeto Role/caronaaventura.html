@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <style>
+        .colorstar {
+            color: #71c57f;
+        }
+
+        .timeline-container {
+            position: relative;
+            width: 100%;
+        }
+
+        .timeline {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 2px;
+            background-color: #ccc;
+            width: 100%;
+        }
+
+        .cities-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .city {
+            position: relative;
+            margin: 0 10px; /* Ajuste a margem conforme necessário */
+        }
+
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        img.imagemperfil {
+            width: 85px;
+            margin-top: 11px;
+            margin-left: 30px;
+        }
+
+        .cardPrincipal {
+            margin-top: 50px; /* Ajuste a margem conforme necessário */
+        }
+
+        /* Centralize os cards */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+    </style>
+    <title>Aventura</title>
+</head>
+<body>
+    <div class="container cardPrincipal">
+        <!-- Card 1 -->
+        <div class="card mb-3" style="max-width: 840px;">
+            <div class="row g-0">
+                <div class="col-md-2">
+                    <img src=".//img/lenara.png" alt="User Image" class="imagemperfil">
+                </div>
+                <div class="col-md-5">
+                    <div class="card-body">
+                        <h5 class="card-title">Lenara Centa</h5>
+                        <p class="card-title">Aventureira  - Laguna SC</p>
+                        <h5 class="card-title">Perfil do usuario</h5>
+                        <p class="card-text">Terapeuta fora dos padrões que adora viajar e ama a natureza. Não dispensa uma boa comida e viagem. Ama música e carro cheio e todos cantando juntos.</p>
+                        
+                        <div class="cities-container">
+                            <div class="city">Torres</div>
+                            <div class="city">09:00</div>
+                            <div class="timeline-container">
+                                <div class="timeline"></div>
+                            </div>
+                            <div class="city">12:20</div>
+                            <div class="city">Floripa</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="card-body" class="col-md-5">
+                        <h5 class="card-title">
+                            <i class="bi bi-star colorstar"></i>
+                            <i class="bi bi-star colorstar"></i>
+                            <i class="bi bi-star colorstar"></i>
+                            <i class="bi bi-star colorstar"></i>
+                            <i class="bi bi-star"></i>
+                        </h5>
+                        <h5 class="card-text" class="col-md-5">23/10/23</h5>
+                        <h5 class="card-title">Carona:R$ 60,00</h5>
+                        <h5 class="card-title">Hospedagem:R$ 78,00</h5>
+                        <p>casa para 5 pessoas </p>
+                        <h5>Total: R$ 390,00</h5>
+                        <h5>Alimentação:R$25,00</h5>
+                        <button>Whats</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card mb-3" style="max-width: 840px;">
+            <div class="row g-0">
+                <div class="col-md-2">
+                    <img src="https://via.placeholder.com/50" alt="User Image" class="imagemperfil">
+                </div>
+                <div class="col-md-5">
+                    <div class="card-body">
+                        <h5 class="card-title">Lenara Centa</h5>
+                        <p class="card-title">Aventureira</p>
+                        <h5 class="card-title">Perfil do usuario</h5>
+                        <p class="card-text">Terapeuta fora dos padrões que adora viajar e ama a natureza. Não dispensa uma boa comida e viagem. Ama música e carro cheio e todos cantando juntos.</p>
+                        
+                        <div class="cities-container">
+                            <div class="city">Torres</div>
+                            <span>9:00</span>
+                            <div class="timeline-container">
+                                <div class="timeline"></div>
+                            </div>
+                            <div class="city">Floripa</div>
+                            <span>12:30</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <i class="bi bi-star colorstar"></i>
+                            <i class="bi bi-star colorstar"></i>
+                            <i class="bi bi-star colorstar"></i>
+                            <i class="bi bi-star colorstar"></i>
+                            <i class="bi bi-star"></i>
+                        </h5>
+                        <h5 class="card-text">23/10/23</h5>
+                        <h5 class="card-title">Carona:R$ 60,00</h5>
+                        <h5 class="card-title">Hospedagem:R$ 78,00</h5>
+                        <p>casa para 5 pessoas </p>
+                        <h5>Total: R$ 390,00</h5>
+                        <h5>Alimentação:R$25,00</h5>
+                        <button>Whats</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+                <!-- Card 2 -->
+                <div class="card mb-3" style="max-width: 840px;">
+                    <div class="row g-0">
+                        <div class="col-md-2">
+                            <img src=".//img/lenara.png" alt="User Image" class="imagemperfil">
+                        </div>
+                        <div class="col-md-5">
+                            <div class="card-body">
+                                <h5 class="card-title">Lenara Centa</h5>
+                                <p class="card-title">Aventureira</p>
+                                <h5 class="card-title">Perfil do usuario</h5>
+                                <p class="card-text">Terapeuta fora dos padrões que adora viajar e ama a natureza. Não dispensa uma boa comida e viagem. Ama música e carro cheio e todos cantando juntos.</p>
+                                
+                                <div class="cities-container">
+                                    <div class="city">Torres</div>
+                                    <span>9:00</span>
+                                    <div class="timeline-container">
+                                        <div class="timeline"></div>
+                                    </div>
+                                    <div class="city">Floripa</div>
+                                    <span>12:30</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <i class="bi bi-star colorstar"></i>
+                                    <i class="bi bi-star colorstar"></i>
+                                    <i class="bi bi-star colorstar"></i>
+                                    <i class="bi bi-star colorstar"></i>
+                                    <i class="bi bi-star"></i>
+                                </h5>
+                                <h5 class="card-text">23/10/23</h5>
+                                <h5 class="card-title">Carona:R$ 60,00</h5>
+                                <h5 class="card-title">Hospedagem:R$ 78,00</h5>
+                                <p>casa para 5 pessoas </p>
+                                <h5>Total: R$ 390,00</h5>
+                                <h5>Alimentação:R$25,00</h5>
+                                <button>Whats</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+    </div>
+</body>
+</html>
