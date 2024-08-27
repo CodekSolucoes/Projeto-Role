@@ -1,6 +1,6 @@
 <?php
 
-$configsDB = array(
+return array(
     'DNS' => 'sqlite:database.sqlite',
     'user' => null,
     'pass' => null,
