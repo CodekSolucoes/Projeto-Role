@@ -6,3 +6,4 @@ return array(
     'pass' => null,
     'options' => null
 );
+

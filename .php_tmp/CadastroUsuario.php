@@ -6,6 +6,7 @@
     $password = $_POST['password'];
     $confirm_password = $_POST['confirm_password'];
 
-    echo 'oi';
-    var_dump($_POST);
+    if($user == '' || $email == '' || $password == ''){
+        $errors[] += "Preencha todos os campos do formulário";
+    }
 
