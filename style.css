@@ -55,11 +55,78 @@ p {
     font-weight: bold;
     background: linear-gradient(135deg, #f35c23, #d74a1a); /* Gradiente laranja */
 }
+/*.
+.login-button, .register-button ,#convite {
+    background: linear-gradient(135deg, #f35c23, #d74a1a); /* Gradiente laranja para o botão de login 
+}*/
 
-.login-button {
-    background: linear-gradient(135deg, #f35c23, #d74a1a); /* Gradiente laranja para o botão de login */
+/* .register-button, .login-button, #convite {
+    background: linear-gradient(135deg, #1875E8, #07a3ed); /* Gradiente Azul  para o botão de cadastro  e login
+}*/
+
+.register-button, .login-button, #convite {
+    background: linear-gradient(175deg, #2dff00, #8db350);
+}*/
+
+
+
+
+
+
+.colorstar {
+    color: #71c57f;
 }
 
-.register-button {
-    background: linear-gradient(135deg, #f35c23, #d74a1a); /* Gradiente laranja para o botão de cadastro */
+.timeline-container {
+    position: relative;
+    width: 100%;
 }
+
+.timeline {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 2px;
+    background-color: #ccc;
+    width: 100%;
+}
+
+.cities-container {
+    display: flex;
+    align-items: center;
+}
+
+.city {
+    position: relative;
+    margin: 0 10px; /* Ajuste a margem conforme necessário */
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+img.imagemperfil {
+    width: 85px;
+    margin-top: 11px;
+    margin-left: 30px;
+}
+
+.cardPrincipal {
+    margin-top: 50px; /* Ajuste a margem conforme necessário */
+}
+
+/* Centralize os cards */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+
+
+
