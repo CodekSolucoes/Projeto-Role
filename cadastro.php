@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,10 +30,17 @@
                 <input type="password" name="confirm_password" id="confirm_password" required>
                 <label for="confirm_password">Confirmar senha</label>
             </div>
+            <span style="color:red">
+            <?php 
+                if(isset($_SESSION['errors'])){ 
+                    echo $_SESSION['errors']['confirm'];
+                    unset($_SESSION['errors']['confirm']);
+                } 
+            ?>
+        </span>
             <button type="submit" class="button login-button">Cadastrar</button>
-            
-            
         </form>
+        
     </div>
 </body>
 </html>
