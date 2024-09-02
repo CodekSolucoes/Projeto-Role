@@ -66,13 +66,7 @@ p {
 
 .register-button, .login-button, #convite {
     background: linear-gradient(175deg, #2dff00, #8db350);
-}*/
-
-
-
-
-
-
+}
 .colorstar {
     color: #71c57f;
 }
@@ -126,6 +120,39 @@ body {
     margin: 0;
 }
 
+/* cadastro_carona.html */
+
+.container_cadastro_carona{
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+    border: 1px solid #d74a1a;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.container_cadastro_carona input{
+    border-radius: 10px;
+    background-color: transparent;
+    border-color: #d74a1a;
+    font-size: 26px;
+}
+
+.container_cadastro_carona button{
+    align-self: center;
+    padding: 16px 30px;
+    border-radius: 20px;
+    background-color: #d74a1a;
+    font-size: 20px;
+    color: white;
+}
+.container_cadastro_carona button:hover{
+    background-color: #f35c23;
+    cursor: pointer;
+}
+/* FIM cadastro_carona.html */
 
 
 
